@@ -240,7 +240,8 @@ export default function MemoryMatchGame() {
                     boxShadow: card.isFlipped || card.isMatched ? "0 4px 20px 0 rgba(52, 89, 202, 0.17)" : "none",
                     background: card.isFlipped || card.isMatched
                       ? "#fff"
-                      : "linear-gradient(135deg, #8f5ede 0%, #50a5fa 100%)",
+                      : "linear-gradient(135deg, #1f2a44 0%, #3d5874 100%)"
+,
                     border: card.isFlipped || card.isMatched ? "1.5px solid #95b7ed" : "none"
                   }}
                 >
