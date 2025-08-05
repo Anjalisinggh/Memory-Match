@@ -143,16 +143,20 @@ export default function MemoryMatchGame() {
     <div
       className="min-h-screen w-full"
       style={{
-        backgroundImage: "url('/img/background.jpg')",
+        backgroundImage: "url('/img/img.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed"
+        
       }}
     >
-      <div className="max-w-4xl mx-auto bg-white/80 dark:bg-black/60 rounded-2xl shadow-lg p-4">
+    <div className="max-w-4xl mx-auto bg-white/30 dark:bg-black/30 rounded-2xl shadow-lg p-4">
+
         <Card className="mb-6 bg-transparent border-none shadow-none">
           <CardHeader>
-            <CardTitle className="text-center text-3xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              Memory Match 
+<CardTitle className="text-center text-3xl font-bold font-serif bg-gradient-to-r from-black to-gray-800 bg-clip-text text-transparent">
+            MemoRush
             </CardTitle>
           </CardHeader>
           <CardContent>

@@ -1,6 +1,6 @@
 {
-  "name": "memorymatch",
-  "version": "0.1.0",
+  "name": "memorush",
+    "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "next build",
