@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Memory Match ',
   description: 'A fun and interactive memory matching game ',
   icons: {
-    icon: '/favicon.ico',}
+    icon: '/icon.jpg',}
 }
 
 export default function RootLayout({
